@@ -1,0 +1,35 @@
+.container {
+    padding: 0 4rem;
+    width: 50%;
+}
+
+.input-wrapper {
+    position: relative;
+    width: fit-content;
+}
+
+input {
+    padding: 0.7rem 1.4rem;
+    border-radius: 55px;
+    outline: none;
+    border: none;
+    opacity: 0.5;
+    color: black;
+}
+
+input::-webkit-input-placeholder {
+    color: black;
+    opacity: 1;
+}
+
+.input-submit {
+    border-radius: 50%;
+    width: 1.6rem;
+    height: 1.6rem;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    cursor: pointer;
+}
